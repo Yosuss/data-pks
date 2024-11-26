@@ -20,8 +20,8 @@ return new class extends Migration
             $table->integer('minimum');
             $table->integer('tarif_1');
             $table->integer('tarif_2');
-            $table->integer('tarif_3');
-            $table->integer('masa_perjanjian');
+            $table->integer('tarif_3')->nullable();
+            $table->string('masa_perjanjian');
             $table->timestamps();
         });
     }
