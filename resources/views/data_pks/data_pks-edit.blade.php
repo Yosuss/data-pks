@@ -29,26 +29,26 @@
                         value="{{ $data_pks->golongan }}">
                 </div>
                 <div class="mb-4">
-                    <label for="minimum" class="block text-xl font-medium text-gray-700">minimum</label>
-                    <input type="number" name="minimum" id="minimum"
+                    <label for="minimum" class="block text-xl font-medium text-gray-700">pemakaian minimum</label>
+                    <input type="text" name="minimum" id="minimum"
                         class="mt-1 block w-full p-2 border-2 border-gray-300 rounded-md shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-xl"
                         value="{{ $data_pks->minimum }}">
                 </div>
                 <div class="mb-4">
                     <label for="tarif_1" class="block text-xl font-medium text-gray-700">tarif_1</label>
-                    <input type="number" name="tarif_1" id="tarif_1"
+                    <input type="text" name="tarif_1" id="tarif_1"
                         class="mt-1 block w-full p-2 border-2 border-gray-300 rounded-md shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-xl"
                         value="{{ $data_pks->tarif_1 }}">
                 </div>
                 <div class="mb-4">
                     <label for="tarif_2" class="block text-xl font-medium text-gray-700">tarif_2</label>
-                    <input type="number" name="tarif_2" id="tarif_2"
+                    <input type="text" name="tarif_2" id="tarif_2"
                         class="mt-1 block w-full p-2 border-2 border-gray-300 rounded-md shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-xl"
                         value="{{ $data_pks->tarif_2 }}">
                 </div>
                 <div class="mb-4">
                     <label for="tarif_3" class="block text-xl font-medium text-gray-700">tarif_3</label>
-                    <input type="number" name="tarif_3" id="tarif_3"
+                    <input type="text" name="tarif_3" id="tarif_3"
                         class="mt-1 block w-full p-2 border-2 border-gray-300 rounded-md shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:text-xl"
                         value="{{ $data_pks->tarif_3 }}">
                 </div>

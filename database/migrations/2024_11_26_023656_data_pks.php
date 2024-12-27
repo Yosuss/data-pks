@@ -16,12 +16,12 @@ return new class extends Migration
             $table->id('id_data_pks');
             $table->string('tanggal');
             $table->string('nama_perusahaan');
-            $table->string('golongan');
-            $table->integer('minimum');
-            $table->integer('tarif_1');
-            $table->integer('tarif_2');
-            $table->integer('tarif_3')->nullable();
-            $table->string('masa_perjanjian');
+            $table->string('golongan')->nullable();
+            $table->string('minimum')->nullable();
+            $table->string('tarif_1')->nullable();
+            $table->string('tarif_2')->nullable();
+            $table->string('tarif_3')->nullable();
+            $table->string('masa_perjanjian')->nullable();
             $table->timestamps();
         });
     }

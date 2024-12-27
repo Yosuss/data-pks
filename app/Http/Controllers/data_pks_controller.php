@@ -17,19 +17,19 @@ class data_pks_controller extends Controller
         $request->validate([
             'tanggal' => 'required',
             'nama_perusahaan' => 'required',
-            'golongan' => 'required',
-            'minimum' => 'required',
-            'tarif_1' => 'required',
-            'tarif_2' => 'required',
-            'masa_perjanjian' => 'required',
+            // 'golongan' => 'required',
+            // 'minimum' => 'required',
+            // 'tarif_1' => 'required',
+            // 'tarif_2' => 'required',
+            // 'masa_perjanjian' => 'required',
         ],[
             'tanggal.required' => 'tanggal harus diisi.',
             'nama_perusahaan.required' => 'nama_perusahaan harus diisi.',
-            'golongan.required' => 'golongan harus diisi.',
-            'minimum.required' => 'minimum harus diisi.',
-            'tarif_1.required' => 'tarif_1 harus diisi.',
-            'tarif_2.required' => 'tarif_2 harus diisi.',
-            'masa_perjanjian.required' => 'tarif_3 harus diisi.',
+            // 'golongan.required' => 'golongan harus diisi.',
+            // 'minimum.required' => 'minimum harus diisi.',
+            // 'tarif_1.required' => 'tarif_1 harus diisi.',
+            // 'tarif_2.required' => 'tarif_2 harus diisi.',
+            // 'masa_perjanjian.required' => 'tarif_3 harus diisi.',
         ]);
 
         // simpan data ( simple )
@@ -58,19 +58,19 @@ class data_pks_controller extends Controller
         $request->validate([
             'tanggal' => 'required',
             'nama_perusahaan' => 'required',
-            'golongan' => 'required',
-            'minimum' => 'required',
-            'tarif_1' => 'required',
-            'tarif_2' => 'required',
-            'masa_perjanjian' => 'required',
+            // 'golongan' => 'required',
+            // 'minimum' => 'required',
+            // 'tarif_1' => 'required',
+            // 'tarif_2' => 'required',
+            // 'masa_perjanjian' => 'required',
         ],[
             'tanggal.required' => 'tanggal harus diisi.',
             'nama_perusahaan.required' => 'nama_perusahaan harus diisi.',
-            'golongan.required' => 'golongan harus diisi.',
-            'minimum.required' => 'minimum harus diisi.',
-            'tarif_1.required' => 'tarif_1 harus diisi.',
-            'tarif_2.required' => 'tarif_2 harus diisi.',
-            'masa_perjanjian.required' => 'tarif_3 harus diisi.',
+            // 'golongan.required' => 'golongan harus diisi.',
+            // 'minimum.required' => 'minimum harus diisi.',
+            // 'tarif_1.required' => 'tarif_1 harus diisi.',
+            // 'tarif_2.required' => 'tarif_2 harus diisi.',
+            // 'masa_perjanjian.required' => 'masa_perjanjian harus diisi.',
         ]);
 
         $data = data_pks_model::findOrFail($id);
